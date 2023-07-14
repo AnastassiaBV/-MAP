@@ -1,0 +1,125 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.main {
+    background-color: #201B17;
+    padding: 100px 0 120px 0;
+}
+
+.main_items {}
+
+.main_title {
+    width: 1000px;
+    color: #FFFFFF;
+    font-size: 48px;
+    margin-bottom: 60px;
+}
+
+.selected_text {
+    display: inline-block;
+    padding: 12px 28px;
+    font-family: Nunito Sans;
+    font-weight: normal;
+    background-color: #DF7861;
+    border-radius: 50px;
+    color: #FFFFFF;
+}
+
+.main_title .th__line {
+    display: flex;
+    align-items: center;
+    font-size: 48px;
+}
+
+.main_title .th__line h2 {
+    font-size: 48px;
+}
+
+.main_title .th__line img {
+    margin-left: 10px;
+    width: auto;
+    height: 40px;
+}
+
+.cards_items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    /* height: 457px; */
+
+}
+
+.card_item {
+    height: 457px;
+    width: 345px;
+    border-radius: 16px;
+    background-color: rgb(136, 131, 131);
+}
+
+
+/* Model vehicles */
+
+.model_vehicles {
+    padding: 80px 0 120px 0;
+}
+
+.model_items {
+    display: flex;
+    justify-content: center;
+
+}
+
+.reviews{
+    width: 75%;
+    text-align: center;
+}
+
+.reviews .model_title {
+    color: #201B17;
+    font-family: Nunito Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    margin-bottom: 40px;
+}
+.cars_slider{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cars_description{
+    text-align: center;
+}
+.car_name{
+    margin-bottom: 25px;
+}
+.cars_description hr{
+    margin-bottom: 25px;
+}
+.car_info{
+    display: flex;
+    justify-content: space-between
+}
+.ad {
+    width: 25%;
+    height: 600px;
+    border-radius: 16px;
+    background: #D9D9D9;
+    margin-left: 20px;
+}
